@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['cypher', 'fade', 'jett', 'pheonix', 'raze', 'reyna', 'sage', 'sova']
+
+roboflow:
+  workspace: abhishek-ekre-8e6oh
+  project: valo-ssznt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/abhishek-ekre-8e6oh/valo-ssznt/dataset/1
