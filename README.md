@@ -1,4 +1,4 @@
-# Valorant Agent Detection Model (Instance Segmentation)
+ # Valorant Agent Detection Model (Instance Segmentation)
 
 ## Introduction
 
@@ -63,10 +63,10 @@ Valorant-Agent-Detection/
 
 ### Use Case Flow
 - Image Collection → Capture Valorant gameplay screenshots
--Annotation → Use Roboflow to label agents
--Preprocessing → Apply sampling techniques for class balance
--Model Training → Train YOLOv8 with data.yaml
--Inference → Use trained .pt model to detect agents in new images
+- Annotation → Use Roboflow to label agents
+- Preprocessing → Apply sampling techniques for class balance
+- Model Training → Train YOLOv8 with data.yaml
+- Inference → Use trained .pt model to detect agents in new images
 
 ### Use Case Flow
 ✅ Dataset of 600 images annotated on Roboflow
@@ -76,3 +76,10 @@ Valorant-Agent-Detection/
 ✅ YOLOv8 model trained and evaluated
 
 ✅ Final .pt model file ready for use
+
+### Contributing
+If you'd like to improve detection accuracy, test on new agents, or integrate this into a live detection pipeline, feel free to fork the repo and contribute.
+
+### Contact
+GitHub: ABHISHEKEKRE
+Project Link: https://github.com/ABHISHEKEKRE/Valorant-Agent-Detection
